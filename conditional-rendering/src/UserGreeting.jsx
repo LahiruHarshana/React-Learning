@@ -1,10 +1,6 @@
 function UserGreeting(props) {
-    if (props.isLoggedIn) {
-      return <h1>Welcome back, {props.username}!</h1>;
-    }
-    else {
-      return <h1>Please sign up.</h1>;
-    }
+
+    return (props.isLoggedIn) ? <h1>Welcome back, {props.username}!</h1> : <h1>Welcome, Guest!</h1>
 }
 
 export default UserGreeting;
