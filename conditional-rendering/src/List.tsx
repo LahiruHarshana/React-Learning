@@ -1,6 +1,6 @@
 function List(){
-    const fruits = [{name : "apple"},
-                    {"banana"},
+    const fruits = [{name : "apple",calories : 100},
+                    {name : "banana" ,calories : 200},
                     {"orange"}];
 
     const listItems = fruits.map(fruit => <li>{fruit}</li>);
