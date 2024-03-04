@@ -1,7 +1,8 @@
-import List from "./List.jsx"
+import List from "./List.tsx"
 function App() {
   return (
     <>
+    <List/>
     </>
   )
 }
