@@ -6,6 +6,5 @@ function Student(props){
             <p>Student : {props.isStudent ? "Yes":"No"}</p>
         </div>
     );
-
 }
 export default Student;
