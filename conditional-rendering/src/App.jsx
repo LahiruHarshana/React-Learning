@@ -1,11 +1,9 @@
-import UserGreeting from "./UserGreeting"
+import UserGreeting from "./UserGreeting.jsx"
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-    <UserGreeting />
+    <UserGreeting isLoggedIn={true} username ="Lahiru" />
     </>
   )
 }
